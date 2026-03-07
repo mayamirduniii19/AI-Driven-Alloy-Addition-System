@@ -57,3 +57,6 @@ if __name__ == "__main__":
     response = engine.query("What is the recovery rate of Chromium?")
     for res in response:
         print(f"[{res['score']:.2f}] {res['source']}: {res['content']}")
+
+#this is the queryt engine but theres no other thing to think about
+
