@@ -44,3 +44,4 @@ def calculate_alloy_cost(dosing_plan, prices):
         total_cost += cost
         breakdown[element] = cost
     return total_cost, breakdown
+#idk whatbim doinb
